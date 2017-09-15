@@ -5,21 +5,21 @@ Please consult the following document for a reference to the Industry Codes: htt
 
 #API Endpoints
 
-1. /api/industryCodes/all
-  --> returns a list of all industries with their respective codes
+1. /api/industryCodes/all  
+  --> returns a list of all industries with their respective codes  
   
-2. /api/industryCode/description/:descriptionText
-  --> Where [:descriptionText] is a valid substring of an industry description
-  --> returns all industries with a description containing the :descriptionText
+2. /api/industryCode/description/:descriptionText  
+  --> Where [:descriptionText] is a valid substring of an industry description  
+  --> returns all industries with a description containing the :descriptionText  
 
-3. /api/industryCodes/naics/:code
-  --> Where [:code] is a valid NCAIS code
-  --> returns all industries with a matching NCAIS code
+3. /api/industryCodes/naics/:code  
+  --> Where [:code] is a valid NCAIS code  
+  --> returns all industries with a matching NCAIS code  
   
-4. /api/industryCodes/ncci/:ncciCode
-  --> Where [:ncciCode] is a valid NCCI code
-  -- returns all industries with a matching NCCI code
+4. /api/industryCodes/ncci/:ncciCode  
+  --> Where [:ncciCode] is a valid NCCI code  
+  --> returns all industries with a matching NCCI code  
 
-5. /api/industryCodes/ca_wc/:ca_wcCode
-  --> Where [:ca_wcCode] is a valid CA_WC code
-  -- returns all industries with a matching CA_WC code
+5. /api/industryCodes/ca_wc/:ca_wcCode  
+  --> Where [:ca_wcCode] is a valid CA_WC code  
+  --> returns all industries with a matching CA_WC code  
