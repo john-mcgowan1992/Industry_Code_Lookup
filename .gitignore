@@ -9,12 +9,6 @@
 *.userosscache
 *.sln.docstates
 
-# API tokens and user-sensitive data
-app/server/defaults.py
-launcher/database.py
-launcher/launcher_defaults.py
-app/client/src/middleware/apiKey.js
-
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
