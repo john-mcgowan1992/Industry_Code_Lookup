@@ -1,0 +1,36 @@
+{
+  "name": "react_flask_barebones",
+  "version": "1.0.0",
+  "description": "A barebones boilerplate for web applications using React and Python Flask",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --public tbqilesjhf.localtunnel.me"
+  },
+  "proxy": "http://localhost:5000",
+  "author": "John McGowan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "express": "^4.15.4",
+    "material-ui": "^0.19.1",
+    "pdf2json": "^1.1.7",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-json-tree": "^0.10.9",
+    "request": "^2.81.0",
+    "sequelize": "^4.8.3",
+    "sqlite3": "^3.1.11"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.5",
+    "html-webpack-plugin": "^2.30.1",
+    "path": "^0.12.7",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  }
+}

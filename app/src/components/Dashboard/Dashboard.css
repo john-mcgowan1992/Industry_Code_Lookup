@@ -1,0 +1,22 @@
+.Dashboard {
+    margin: 5% auto;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.Dashboard .paper {
+    padding: 5%;
+    margin: auto;
+    height: 80%;
+}
+
+.Dashboard .paper .div {
+    padding: 5%;
+    margin: auto;
+}
+
+.Dashboard .paper .searchButton {
+    padding: 4%;
+}
